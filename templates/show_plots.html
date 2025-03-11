@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+body {
+
+}
+</style>
+<body>
+<h1 class="font-bold text-3xl underline text-center ">Brian MRI segmentation and classification</h1></br>
+<p class="text-center text-xl"> Output and Graph Plots</p>
+<p class="text-center text-xl" id="text">{{ processed_text }}</p>
+
+<div class="grid h-screen place-items-center">
+
+    <img class="mt-10" src="{{ user_image }}" alt="Italian Trulli" width="500" height="500">
+    <p>Model Loss</p>
+
+    <img class="mt-10" src="{{ user_image1 }}" alt="Italian Trulli" width="500" height="500">
+    <p>Accuracy Per EPOCH</p>
+
+    <img class="mt-10" src="{{ user_image2 }}" alt="Italian Trulli" width="500" height="500">
+    <p>Area Under The Curve</p>
+
+    <img class="mt-10" src="{{ user_image3 }}" alt="Italian Trulli" width="500" height="500">
+    <p>Confusion Matrix</p>
+</div>
+
+</body>
+</html>
